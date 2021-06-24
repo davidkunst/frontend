@@ -1,0 +1,26 @@
+.stock-preview {
+  padding: 0px 30px 0px 30px;
+  text-align: center;
+  min-height: 30px;
+  background-color: #117cd9;
+  color: white;
+  height: auto;
+}
+
+@media only screen and (max-width: 979px) {
+  .stock-preview {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 741px) {
+  .stock-preview {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 558px) {
+  .stock-preview {
+    display: none !important;
+  }
+}

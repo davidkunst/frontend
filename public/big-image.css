@@ -1,0 +1,55 @@
+.big-image {
+  height: 850px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../images/graph2.jpg');
+  background-blend-mode: darken;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.big-image-text-container {
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.invest-earn {
+  font-size: 35px;
+}
+
+.trade-forex {
+  line-height: 50px;
+  font-size: 90px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .big-image {
+    height: 700px;
+  }
+
+  .invest-earn {
+    font-size: 7vw;
+  }
+
+  .trade-forex {
+    line-height: 50px;
+    font-size: 7vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .big-image {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .big-image span {
+    font-size: 5vw;
+  }
+}

@@ -1,0 +1,100 @@
+.popular-assets {
+  padding: 60px 0px 30px 0px;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 640px;
+}
+
+.assets-text-container {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.assets-number {
+  font-size: 17px;
+  line-height: 0px;
+}
+
+.asset-icon {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#most-popular-text {
+  margin-top: 60px;
+  font-size: 45px;
+}
+
+#assets-desc {
+  margin-top: 20px;
+}
+
+.asset-name {
+  margin: 30px 0px 0px 0px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.asset-info-container {
+  padding: 3px 15px 3px 15px;
+}
+
+.asset-stock-percentage {
+  color: red;
+  font-size: 15px;
+}
+
+.asset-price {
+  font-size: 13px;
+  text-align: center;
+}
+
+.asset-item {
+  height: 280px;
+  width: 220px;
+  margin: auto;
+  color: #4a4a4a;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.asset-top-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px; */
+  width: 100%;
+}
+
+@media only screen and (max-width: 1080px) {
+  #most-popular-text {
+    font-size: 4vw;
+  }
+  #assets-desc {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #most-popular-text {
+    font-size: 5vw;
+    text-align: start;
+  }
+  #assets-desc {
+    margin-top: 7px;
+    font-size: 2.4vw;
+  }
+  .popular-assets {
+    height: 750px;
+  }
+  .popular-assets-card-list {
+    margin: 55px auto 0px auto;
+  }
+}
